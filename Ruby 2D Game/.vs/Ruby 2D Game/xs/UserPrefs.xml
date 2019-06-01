@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{399DBD02-AE69-8161-235F-2CF5E1E3D4C5}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RubyController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/HealthCollectible.cs">
     <Files>
-      <File FileName="Assets/Scripts/RubyController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/RubyController.cs" Line="17" Column="35" />
+      <File FileName="Assets/Scripts/HealthCollectible.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
