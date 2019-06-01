@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HealthCollectible : MonoBehaviour
+public class DamageZone : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -10,11 +10,8 @@ public class HealthCollectible : MonoBehaviour
 
         if (controller != null)
         {
-            if (controller.health < controller.maxHealth)
-            {
-                controller.ChangeHealth(10);
-                Destroy(gameObject);
-            }
+            controller.ChangeHealth(-10);
         }
     }
+
 }
