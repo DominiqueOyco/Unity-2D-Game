@@ -18,12 +18,6 @@ public class Projectile : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        RubyController player = other.gameObject.GetComponent<RubyController>();
-
-        if (player != null)
-        {
-            player.ChangeHealth(-10);
-        }
         //we also add a debug log to know what the projectile touch
         Debug.Log("Projectile Collision with " + other.gameObject);
         Destroy(gameObject);
