@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\DamageZone.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\HealthCollectible.cs" />
+    <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\RubyController.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/rain/Documents/GitHub/Unity 2D Game/Ruby 2D Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
