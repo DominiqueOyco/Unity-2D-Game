@@ -88,6 +88,12 @@
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>/Users/rain/Documents/GitHub/Unity 2D Game/Ruby 2D Game/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>/Users/rain/Documents/GitHub/Unity 2D Game/Ruby 2D Game/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>/Users/rain/Documents/GitHub/Unity 2D Game/Ruby 2D Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.1.0f2/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
     </Reference>
