@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Audio;
 using UnityEngine;
 
 public class Projectile : MonoBehaviour
@@ -18,8 +19,9 @@ public class Projectile : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
+        RubyController controller = other.gameObject.GetComponent<RubyController>();
         //we also add a debug log to know what the projectile touch
-        Debug.Log("Projectile Collision with " + other.gameObject);
+        //Debug.Log("Projectile Collision with " + other.gameObject);
         Destroy(gameObject);
     }
 

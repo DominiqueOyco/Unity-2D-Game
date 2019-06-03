@@ -1,12 +1,39 @@
 fileFormatVersion: 2
 guid: 255841382d607e24a8317d9ab167f414
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: JambiIdle1
-    21300002: JambiIdle2
-    21300004: JambiIdle3
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: JambiIdle1
+  - first:
+      213: 21300002
+    second: JambiIdle2
+  - first:
+      213: 21300004
+    second: JambiIdle3
+  - first:
+      213: -8357743652229098784
+    second: JambiSheet_0
+  - first:
+      213: 8595663479141425735
+    second: JambiSheet_1
+  - first:
+      213: -824855406727480688
+    second: JambiSheet_2
+  - first:
+      213: -4891066528653638872
+    second: JambiSheet_3
+  - first:
+      213: -5569122339829369764
+    second: JambiSheet_4
+  - first:
+      213: -4734256227678310330
+    second: JambiSheet_5
+  - first:
+      213: 2827613151017727381
+    second: JambiSheet_6
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -45,10 +72,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 7
   spritePivot: {x: 0.5, y: 0}
-  spritePixelsToUnits: 150
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -83,65 +110,174 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: JambiIdle1
+      name: JambiSheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 768
+        y: 0
         width: 256
-        height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 1024
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b9f29c444b3a0a488d9e380dd4e476f
+      spriteID: 61437f0c3d5284f4e94569550b2a66df
+      internalID: -8357743652229098784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JambiIdle2
+      name: JambiSheet_1
       rect:
         serializedVersion: 2
-        x: 256
-        y: 768
-        width: 256
-        height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 204
+        y: 0
+        width: 303
+        height: 1024
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac704b7ce23e935479b6b68735992ca3
+      spriteID: 2d467fbc697764d65b5fa3985b98cf19
+      internalID: 8595663479141425735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JambiIdle3
+      name: JambiSheet_2
       rect:
         serializedVersion: 2
-        x: 512
-        y: 768
-        width: 256
-        height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 608
+        y: 1012
+        width: 4
+        height: 12
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caa29f31bb01b004a92b38edc46f72f3
+      spriteID: 8b4240f295b714e0491199b61a888040
+      internalID: -824855406727480688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JambiSheet_3
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 996
+        width: 92
+        height: 12
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa30c1ba8dcd4bca83eb0f37fba5706
+      internalID: -4891066528653638872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JambiSheet_4
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 0
+        width: 258
+        height: 1012
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5631fb06b5c46ceb3245ee8bed1e61
+      internalID: -5569122339829369764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JambiSheet_5
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 936
+        width: 4
+        height: 4
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899dae3d31b60414d8083f0036105390
+      internalID: -4734256227678310330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JambiSheet_6
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 0
+        width: 63
+        height: 796
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b979b987177040a5ae74635edf44c9b
+      internalID: 2827613151017727381
       vertices: []
       indices: 
       edges: []
@@ -150,10 +286,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 58b0f0dea70d2424386acb25d9e10199
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

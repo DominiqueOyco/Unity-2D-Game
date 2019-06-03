@@ -1,9 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Audio;
 using UnityEngine;
 
 public class RubyController : MonoBehaviour
 {
+    private AudioSource audioSource;
+    public AudioClip walkClip;
+    public AudioClip throwClip;
+
     public float speed = 5.0f;
     public int maxHealth = 100;
     public float timeInvincible = 2.0f;
@@ -27,6 +32,7 @@ public class RubyController : MonoBehaviour
         animator = GetComponent<Animator>();
         currentHealth = maxHealth;
         currentHealth = 100;
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Launch()
@@ -42,15 +48,6 @@ public class RubyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //float horizontal = Input.GetAxis("Horizontal");
-        //float vertical = Input.GetAxis("Vertical");
-
-        //Vector2 position = rigidbody2d.position;
-        //position.x = position.x + speed * horizontal * Time.deltaTime;
-        //position.y = position.y + speed * vertical * Time.deltaTime;
-
-
-        //rigidbody2d.MovePosition(position);
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 
@@ -60,6 +57,7 @@ public class RubyController : MonoBehaviour
         {
             lookDirection.Set(move.x, move.y);
             lookDirection.Normalize();
+            //PlaySound(walkClip);
         }
 
         animator.SetFloat("Look X", lookDirection.x);
@@ -75,7 +73,6 @@ public class RubyController : MonoBehaviour
         if (isInvincible)
         {
             invincibleTimer -= Time.deltaTime;
-
             if(invincibleTimer < 0)
                 isInvincible = false;
         }
@@ -83,6 +80,7 @@ public class RubyController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.C))
         {
             Launch();
+            PlaySound(throwClip);
         }
     }
 
@@ -99,6 +97,11 @@ public class RubyController : MonoBehaviour
 
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
 
-        Debug.Log(currentHealth + "/" + maxHealth);
+        UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
+    }
+
+    public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
     }
 }

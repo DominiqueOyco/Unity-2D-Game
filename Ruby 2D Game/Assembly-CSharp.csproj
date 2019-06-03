@@ -67,8 +67,12 @@
     <Compile Include="Assets\Scripts\HealthCollectible.cs" />
     <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\RubyController.cs" />
+    <Compile Include="Assets\Scripts\UIHealthBar.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/rain/Documents/GitHub/Unity 2D Game/Ruby 2D Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>/Users/rain/Documents/GitHub/Unity 2D Game/Ruby 2D Game/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/rain/Documents/GitHub/Unity 2D Game/Ruby 2D Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -82,17 +86,14 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>/Users/rain/Documents/GitHub/Unity 2D Game/Ruby 2D Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>/Users/rain/Documents/GitHub/Unity 2D Game/Ruby 2D Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>/Users/rain/Documents/GitHub/Unity 2D Game/Ruby 2D Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>/Users/rain/Documents/GitHub/Unity 2D Game/Ruby 2D Game/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>/Users/rain/Documents/GitHub/Unity 2D Game/Ruby 2D Game/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>/Users/rain/Documents/GitHub/Unity 2D Game/Ruby 2D Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.1.0f2/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
