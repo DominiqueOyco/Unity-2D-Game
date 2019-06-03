@@ -82,6 +82,12 @@ public class RubyController : MonoBehaviour
             Launch();
             PlaySound(throwClip);
         }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            speed = 10.0f;
+            position = position + move * speed * Time.deltaTime;
+        }
     }
 
     public void ChangeHealth(int amount)
