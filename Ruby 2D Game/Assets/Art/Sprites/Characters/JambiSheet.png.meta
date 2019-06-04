@@ -32,6 +32,21 @@ TextureImporter:
   - first:
       213: 2827613151017727381
     second: JambiSheet_6
+  - first:
+      213: 7973170230432093472
+    second: JambiSheet_7
+  - first:
+      213: 2278990496654081955
+    second: JambiSheet_8
+  - first:
+      213: -5926329881344118402
+    second: JambiSheet_9
+  - first:
+      213: 5568476939962292687
+    second: JambiSheet_10
+  - first:
+      213: 2256109974182258263
+    second: JambiSheet_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -140,17 +155,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 768
         width: 256
-        height: 1024
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61437f0c3d5284f4e94569550b2a66df
+      spriteID: b9eaf3a1fee164cacbd866b827c7ae4c
       internalID: -8357743652229098784
       vertices: []
       indices: 
@@ -160,18 +175,18 @@ TextureImporter:
       name: JambiSheet_1
       rect:
         serializedVersion: 2
-        x: 204
-        y: 0
-        width: 303
-        height: 1024
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d467fbc697764d65b5fa3985b98cf19
+      spriteID: a5e89122046e64608a4d2cb3b2f5b77e
       internalID: 8595663479141425735
       vertices: []
       indices: 
@@ -181,18 +196,18 @@ TextureImporter:
       name: JambiSheet_2
       rect:
         serializedVersion: 2
-        x: 608
-        y: 1012
-        width: 4
-        height: 12
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b4240f295b714e0491199b61a888040
+      spriteID: 6fa03ae41a0b74c7686798a8173ddefe
       internalID: -824855406727480688
       vertices: []
       indices: 
@@ -202,18 +217,18 @@ TextureImporter:
       name: JambiSheet_3
       rect:
         serializedVersion: 2
-        x: 484
-        y: 996
-        width: 92
-        height: 12
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fa30c1ba8dcd4bca83eb0f37fba5706
+      spriteID: 8e591f7ad9cd5456dbf14255704cb100
       internalID: -4891066528653638872
       vertices: []
       indices: 
@@ -223,18 +238,18 @@ TextureImporter:
       name: JambiSheet_4
       rect:
         serializedVersion: 2
-        x: 508
-        y: 0
-        width: 258
-        height: 1012
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df5631fb06b5c46ceb3245ee8bed1e61
+      spriteID: 5287dcee050434644acbf5e05f26cced
       internalID: -5569122339829369764
       vertices: []
       indices: 
@@ -244,18 +259,18 @@ TextureImporter:
       name: JambiSheet_5
       rect:
         serializedVersion: 2
-        x: 504
-        y: 936
-        width: 4
-        height: 4
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 899dae3d31b60414d8083f0036105390
+      spriteID: 07279d726b58344dca08ce1ca62cd6f3
       internalID: -4734256227678310330
       vertices: []
       indices: 
@@ -265,19 +280,124 @@ TextureImporter:
       name: JambiSheet_6
       rect:
         serializedVersion: 2
-        x: 457
-        y: 0
-        width: 63
-        height: 796
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b979b987177040a5ae74635edf44c9b
+      spriteID: 82a3397ec971749b4bb1d1041f28a8ae
       internalID: 2827613151017727381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JambiSheet_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1f5a5a0dc1147b58a62235113b5da1
+      internalID: 7973170230432093472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JambiSheet_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b7960a11959439faa2dfc5cd21947c
+      internalID: 2278990496654081955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JambiSheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc82050128ad64a398b7fa672a164724
+      internalID: -5926329881344118402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JambiSheet_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cd393bb72df4b6f9f9364b50dd9633
+      internalID: 5568476939962292687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JambiSheet_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61636a37727b84a85895d26fee03cc7a
+      internalID: 2256109974182258263
       vertices: []
       indices: 
       edges: []

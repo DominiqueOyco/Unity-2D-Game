@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.Audio;
 using UnityEngine;
 
+//RAYCAST IS A LASERBEAM AND ANYTHING IT HITS WILL BE STORED
 public class RubyController : MonoBehaviour
 {
     private AudioSource audioSource;
@@ -90,6 +91,7 @@ public class RubyController : MonoBehaviour
         }
     }
 
+    //time deltatime - the time it takes to get from one frame to another (subtract one frame to its previous frame)
     public void ChangeHealth(int amount)
     {
         if (amount < 0)
@@ -101,6 +103,7 @@ public class RubyController : MonoBehaviour
             invincibleTimer = timeInvincible;
         }
 
+        //doesnt exceed the maximum and never less than minimum
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
 
         UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
